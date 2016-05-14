@@ -1,4 +1,4 @@
-# How to Link Your Domain to your Amazon EC2 project
+# How to Link Your Registered Domain Name to your Amazon EC2 project
 
 So you have built a funky web application, and hosted it on Amazons EC2 servers. 
 And you have registered a memorable domain name for people to access your 
