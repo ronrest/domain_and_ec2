@@ -1,6 +1,14 @@
 # How to Link Your Domain to your Amazon EC2 project
 
-[TOC]
+So you have built a funky web application, and hosted it on Amazons EC2 servers. 
+And you have registered a memorable domain name for people to access your 
+website with. So.... now what?
+
+If you feel completely lost about how to get your domain name to point to your 
+server running on EC2, then you are not alone. This was confusing and painful 
+journey when I first tried it. But, hopefully I can make it much less painful 
+for you. 
+
 
 ## 0. (Optional) Create an elastic IP address for your ec2 server
 By setting up an elastic IP address, you can have an IP address for your 
