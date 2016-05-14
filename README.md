@@ -84,3 +84,39 @@ addresses for its value. Copy and paste any two of those addresses into a text
 editor, as we will be using it in the next step. 
 
 
+
+## Change DNS settings in your Domain Name Provider
+Log into the website where you registered your domain name. Ther should be a 
+section to change your **DNS** settings. Look for a section that contains the 
+**nameservers**. It should have to fields, that look something like this: 
+
+```sh
+ns1.example.com
+ns2.example.com
+```
+
+The numbers and domain name will differ, but it will usually always begin with 
+**ns**. We will be changing these, so click whatever is needed to edit the 
+contents of these two fields, and copy and paste each of the two name server 
+addresses we copied earlier from Amazon S5. If they contained a full-stop at 
+the very end, then delete that full-stop when entering it into these two fields. 
+
+Once you have edited and saved these changes, it is just a matter of waiting. 
+It might take several hours (or even a few days) for these changes to take 
+effect. 
+
+You monitor if the changes have occured using the command line tool `dig` 
+(which should be installed by default on an ubuntu machine). Type: 
+
+```
+dig example.com
+```
+
+And if you see the new NS addresses that you entered, then it is ready. 
+Otherwise keep waiting. 
+
+When it is ready, you can access your EC2 server using you new domain name :) 
+
+Hope this tutorial was helpful. 
+
+
