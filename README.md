@@ -80,7 +80,7 @@ Now click the **Create** button.
 
 You should now have three entries in the **Record Set** section. Type **A**, 
 **NS**, and **SOA**. Now look at the entry for type NS. It should have several 
-addresses for its value. Copy and paste any two of those addresses into a text 
+addresses for its **value** section. Copy and paste those addresses into a text 
 editor, as we will be using it in the next step. 
 
 
@@ -88,7 +88,7 @@ editor, as we will be using it in the next step.
 ## 3. Change DNS settings in your Domain Name Provider
 Log into the website where you registered your domain name. Ther should be a 
 section to change your **DNS** settings. Look for a section that contains the 
-**nameservers**. It should have to fields, that look something like this: 
+**nameservers**. It should have two or more fields that look something like this: 
 
 ```sh
 ns1.example.com
@@ -97,9 +97,16 @@ ns2.example.com
 
 The numbers and domain name will differ, but it will usually always begin with 
 **ns**. We will be changing these, so click whatever is needed to edit the 
-contents of these two fields, and copy and paste each of the two name server 
-addresses we copied earlier from Amazon S5. If they contained a full-stop at 
-the very end, then delete that full-stop when entering it into these two fields. 
+contents of these fields. Delete whatever values were already in there. Now we 
+will replace each of them with the addressed we got from Amazon S5. Please note 
+the following things: 
+
+- If your domain name register has less entries than the number of addresses 
+  you got from Amazon, then just select any of the addresses you like, there 
+  is no need to use all of them. 
+- If the addresses we copied from Amazon S5 contained a full-stop at the very 
+  end, then delete that full-stop when entering it into these fields (but do not 
+  delete them from Amazon S5).
 
 Once you have edited and saved these changes, it is just a matter of waiting. 
 It might take several hours (or even a few days) for these changes to take 
