@@ -7,7 +7,12 @@ By setting up an elastic IP address, you can have an IP address for your
 Amazon EC2 project that will never change. You can even reassign that same IP 
 address to a different EC2 instance if you like. 
 
-Go to your EC2 Dash board, and in the network and Security section, click on 
+Note that by setting up an elastic IP address, the IP address of your EC2 
+instance will be changed. So if you had security settings that restricted the 
+IP address from which you could serve your application from, then you will need 
+to update those settings after you create an elastic IP. 
+
+Ok, go to your EC2 Dash board, and in the network and Security section, click on 
 **Elastic IPs**. 
 
 Click on the **Create a new Address** button at the top. This will create a new 
