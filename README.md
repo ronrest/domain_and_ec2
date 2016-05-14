@@ -21,7 +21,7 @@ click on **Associate Address** and you will get a popup that looks like this:
 
 ![Image of panel to associate Elastic IP address](LESSON_IMG_DIR/elastic_IP_assosiate_address.png)
 
-**Instance**: select the EC2 instance you want to use. Then click **Associate**
+- **Instance**: select the EC2 instance you want to use. Then click **Associate**
 
 
 
