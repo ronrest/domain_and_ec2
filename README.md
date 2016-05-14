@@ -13,9 +13,13 @@ Copy and paste the IP address into a test editor, as we will be using the IP
 address later. 
 
 Now click on the **Actions** button, and in the dropdown menu that appears, 
-click on **Associate Address** and you will get a pipup that looks like this: 
+click on **Associate Address** and you will get a popup that looks like this: 
 
 ![Image of panel to associate Elastic IP address](LESSON_IMG_DIR/elastic_IP_assosiate_address.png)
 
 **Instance**: select the EC2 instance you want to use. Then click **Associate**
+
+
+
+
 
