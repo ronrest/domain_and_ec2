@@ -1,4 +1,4 @@
-# Tutorial 
+# How to Link Your Domain to your Amazon EC2 project
 
 [TOC]
 
