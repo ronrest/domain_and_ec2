@@ -66,7 +66,8 @@ create the settings to route the trafic to our AWS servers.
 
 This opens up a new form to edit which looks something like this: 
 
-IMAGE - create_record_set.png
+![Image of create record set](LESSON_IMG_DIR/create_record_set.png)
+
 
 - **Name**: Leave the name blank (unless you want to use a subdomain). 
 - **Type**: choose A — IPv4 address.
