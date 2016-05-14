@@ -1,12 +1,12 @@
 # How to Link Your Registered Domain Name to your Amazon EC2 project
 
-So you have built a funky web application. You have hosted it on Amazons EC2 
-server. And you have registered a memorable domain name for people to access your 
-website with. So.... now what?
+So you have built a funky web application. You have hosted it on an Amazon EC2 
+instance. And you have registered a memorable domain name for people to access 
+your website with. So.... now what?
 
 If you feel completely lost about how to get your domain name to point to your 
-server running on EC2, then you are not alone. This was confusing and painful 
-journey when I first tried it. But, hopefully I can make it much less painful 
+EC2 instance, then you are not alone. This was confusing and painful 
+journey when I first tried it. But hopefully I can make it much less painful 
 for you. 
 
 
