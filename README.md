@@ -2,7 +2,7 @@
 
 [TOC]
 
-## (Optional) Create an elastic IP address for your ec2 server
+## 0. (Optional) Create an elastic IP address for your ec2 server
 By setting up an elastic IP address, you can have an IP address for your 
 Amazon EC2 project that will never change. You can even reassign that same IP 
 address to a different EC2 instance if you like. 
@@ -26,7 +26,7 @@ click on **Associate Address** and you will get a popup that looks like this:
 
 
 
-## Get the Public IP of your EC2 Instance
+## 1. Get the Public IP of your EC2 Instance
 If you followed the last step to create an elastic IP and have already copied 
 the IP address, then you can skip this section. 
 
@@ -38,7 +38,7 @@ and paste this IP address into a test editor as we will need it later.
 
 
 
-## Prepare Amazon AWS to route traffic from your domain
+## 2. Prepare Amazon AWS to route traffic from your domain
 
 Go to the Amazon Route 53 dashboard by either: 
 
@@ -85,7 +85,7 @@ editor, as we will be using it in the next step.
 
 
 
-## Change DNS settings in your Domain Name Provider
+## 3. Change DNS settings in your Domain Name Provider
 Log into the website where you registered your domain name. Ther should be a 
 section to change your **DNS** settings. Look for a section that contains the 
 **nameservers**. It should have to fields, that look something like this: 
