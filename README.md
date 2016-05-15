@@ -181,15 +181,15 @@ ns2.example.com
 The numbers and domain name will differ, but it will usually always begin with 
 **ns**. We will be changing these, so click whatever is needed to edit the 
 contents of these fields. Delete whatever values were already in there. Now we 
-will replace each of them with the addressed we got from Amazon S5. Please note 
+will replace each of them with the addressed we got from Amazon Route 53. Please note 
 the following things: 
 
 - If your domain name register has less entries than the number of addresses 
   you got from Amazon, then just select any of the addresses you like, there 
   is no need to use all of them. 
-- If the addresses we copied from Amazon S5 contained a full-stop at the very 
+- If the addresses we copied from Amazon Route 53 contained a full-stop at the very 
   end, then delete that full-stop when entering it into these fields (but do not 
-  delete them from Amazon S5).
+  delete them from Amazon Route 53).
 
 Once you have edited and saved these changes, it is just a matter of waiting. 
 It might take several hours (or even a few days) for these changes to take 
