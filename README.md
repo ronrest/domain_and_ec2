@@ -9,6 +9,14 @@ EC2 instance, then you are not alone. This was confusing and painful
 journey when I first tried it. But hopefully I can make it much less painful 
 for you. 
 
+In order to have your domain name route traffic to your EC2 instance, we need to 
+associate the domain name you registered to the IP address of your EC2 instance. 
+We do this by entering these details in a Domain Name System (DNS). This is 
+like a phonebook for the internet. When someone types www.example.com on their 
+browser, it looks up that name in a DNS server, which returns an IP address. 
+That IP address then tells your browser where to locate the content you are 
+looking for. 
+
 
 ## 0. (Optional) Create an elastic IP address for your ec2 server
 By setting up an elastic IP address, you can have an IP address for your 
