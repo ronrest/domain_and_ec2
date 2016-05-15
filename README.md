@@ -91,10 +91,16 @@ This opens up a new form to edit which looks something like this:
 
 Now click the **Create** button. 
 
-You should now have three entries in the **Record Set** section. Type **A**, 
-**NS**, and **SOA**. Now look at the entry for type NS. It should have several 
-addresses for its **value** section. Copy and paste those addresses into a text 
-editor, as we will be using it in the next step. 
+Now click on **Create Record Set** again. We will create a new record and fill 
+things out exactly the same as before except for: 
+
+- **Name**: this time type in `wwww` 
+
+You should now have several entries in the **Record Set** section. At least two 
+for Type **A**, one for **NS**, and one for **SOA**. Now look at the entry for 
+type NS. It should have several addresses for its **value** section. Copy and 
+paste those addresses into a text editor, as we will be using it in the next 
+step. 
 
 
 
