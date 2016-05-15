@@ -195,7 +195,7 @@ Once you have edited and saved these changes, it is just a matter of waiting.
 It might take several hours (or even a few days) for these changes to take 
 effect. 
 
-You monitor if the changes have occured using the command line tool `dig` 
+You can monitor if the changes have occured using the command line tool `dig` 
 (which should be installed by default on an ubuntu machine). Type: 
 
 ```
